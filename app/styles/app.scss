@@ -1,0 +1,29 @@
+@import "projects";
+@import "resume";
+
+html, body {
+  margin: 20px;
+  font-family: sans-serif;
+  height: 100%;
+}
+h2 {
+  color: red;
+}
+
+.fuzzy {
+  color: blue;
+  font-size: 1.5em;
+  border: 1px solid green;
+}
+
+.clean {
+  color: gray;
+  font-size: 1.25em;
+  border: 3px dashed black;
+}
+
+.dunlop {
+  color: orange;
+  font-size: 2em;
+  border: 4px solid red;
+}
