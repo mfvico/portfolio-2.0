@@ -4,20 +4,15 @@ Resume
 {{#link-to "index"}}
 Index
 {{/link-to}}
-<div class="alt-background">
+
 
   {{outlet}}
   <div class="box">
     <h3>Here is a list of projects I have been involved with:</h3>
 
-    <ul>
-      <li>Google (yes, the search engine)</li>
-      <li>Amazon (Recommending items that you don't need but want really really bad)</li>
-      <li>Microsoft (Windows 8 would've been so much worse without me)</li>
-      <li>Oracle (sorry about the Java updates)</li>
-      <li>GitHub (All Glory to the OctoCat)</li>
-      <li>Facebook (before it was cool)</li>
-    </ul>
-  </div>
+    {{#each}}
+    {{project}}
+    {{/each}}
 
-</div>
+
+  </div>
